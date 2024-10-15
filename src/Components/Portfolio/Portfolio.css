@@ -1,0 +1,523 @@
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+.body-container {
+  overflow: hidden;
+  padding: 20px; /* Padding around the body content */
+  background-image: url(display4.jpg);
+  border-radius: 8px; /* Optional rounded corners */
+}
+
+
+.page-container {
+
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Arial', sans-serif; /* Adjust font as needed */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  width: 100%;
+  margin: 0 auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+  margin: 0 auto; /* Center the page horizontally */
+}
+
+/* Profile Box */
+.profile-box {
+  background-image: url(display2.avif);
+  display: flex;
+  
+  align-items: center; /* Center items vertically */
+  background-color: #ffffff; /* Background color for the profile box */
+  border-radius: 30px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Padding inside the box */
+  width: 100%; /* Full width of the profile box */
+  transition: transform 0.2s; /* Smooth hover effect */
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.profile-box:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.profile-image {
+  border-radius: 50%; /* Circular profile image */
+  width: 100px; /* Adjust as needed */
+  height: 100px; /* Adjust as needed */
+  object-fit: cover; /* Ensure image covers the area */
+  margin-right: 16px; /* Margin between text and image */
+}
+.profile-name {
+  align-items: center;
+ color: #e0e0e0;
+  font-size: 1.5rem; /* Name font size */
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile-name1 {
+  font-size: 1.0rem; /* Content text size */
+  color: #FFF;
+  margin-left: 15px;
+  font-style: oblique;
+}
+
+.profile-bio {
+  
+  display: flex;
+  margin-top: 1px;
+  color: #c2bbbb; /* Subtle color for bio */
+  font-size: 1rem; /* Bio font size */
+  margin-left: 70px;
+}
+
+/* Content Box */
+.content-box {
+  background-image: url(display5.avif);
+  background-color: #ffffff; /* Background color for the box */
+  border-radius: 12px; /* Slightly more rounded corners for a softer look */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow for depth */
+  padding: 24px; /* Increased padding for better spacing */
+  width: 100%; /* Full width */
+  max-width: 800px; /* Max width for the box */
+  margin: 20px auto; /* Center the box and add vertical spacing */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+  border: 1px solid #e0e0e0; /* Light border for subtle definition */
+}
+.content-box1 {
+  background-image: url(display5.avif);
+  background-color: #ffffff; /* Background color for the box */
+  border-radius: 12px; /* Slightly more rounded corners for a softer look */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow for depth */
+  padding: 24px; /* Increased padding for better spacing */
+  width: 100%; /* Full width */
+  height: auto;
+  margin-bottom: 150px;
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+  border: 1px solid #e0e0e0; /* Light border for subtle definition */
+}
+
+.content-box2 {
+  background-image: url(display5.avif);
+  background-color: #ffffff; /* Background color for the box */
+  border-radius: 12px; /* Slightly more rounded corners for a softer look */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15); /* Slightly deeper shadow for depth */
+  padding: 24px; /* Increased padding for better spacing */
+  width: 100%; /* Full width */
+  max-width: 800px; /* Max width for the box */
+  margin: 20px auto; /* Center the box and add vertical spacing */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effect */
+  border: 1px solid #e0e0e0; /* Light border for subtle definition */
+}
+
+.content-box:hover {
+  transform: translateY(-4px); /* Lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.content-box h2 {
+  font-size: 1.5rem; /* Title size */
+  margin-bottom: 12px; /* Spacing below title */
+  color: #f6eded; /* Darker color for better readability */
+}
+
+.content-box p {
+  font-size: 1rem; /* Description size */
+  line-height: 1.5; /* Better line height for readability */
+  color: #d62f00; /* Subtle color for text */
+}
+
+.content-box a {
+  color: #FF3D00; /* Primary link color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold links for emphasis */
+  transition: color 0.2s; /* Smooth color transition on hover */
+}
+
+.content-box a:hover {
+  color: #d62f00; /* Darken link color on hover */
+}
+
+
+.content-box1:hover {
+  transform: translateY(-4px); /* Lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.content-box1 h2 {
+  font-size: 1.5rem; /* Title size */
+  margin-bottom: 12px; /* Spacing below title */
+  color: #f6eded; /* Darker color for better readability */
+}
+
+.content-box1 p {
+  font-size: 1rem; /* Description size */
+  line-height: 1.5; /* Better line height for readability */
+  color: #d62f00; /* Subtle color for text */
+}
+
+.content-box1 a {
+  color: #FF3D00; /* Primary link color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold links for emphasis */
+  transition: color 0.2s; /* Smooth color transition on hover */
+}
+
+.content-box1 a:hover {
+  color: #d62f00; /* Darken link color on hover */
+}
+
+
+
+
+
+
+
+.content-box2:hover {
+  transform: translateY(-4px); /* Lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.content-box2 h2 {
+  font-size: 1.5rem; /* Title size */
+  margin-bottom: 12px; /* Spacing below title */
+  color: #f6eded; /* Darker color for better readability */
+}
+
+.content-box2 p {
+  font-size: 1rem; /* Description size */
+  line-height: 1.5; /* Better line height for readability */
+  color: #d62f00; /* Subtle color for text */
+}
+
+.content-box2 a {
+  color: #FF3D00; /* Primary link color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Bold links for emphasis */
+  transition: color 0.2s; /* Smooth color transition on hover */
+}
+
+.content-box2 a:hover {
+  color: #d62f00; /* Darken link color on hover */
+}
+
+
+
+
+/* Content Title */
+.content-title {
+  color: #f8f8f8;
+  margin-left: 310px;
+  font-size: 2rem; /* Title font size */
+  margin-bottom: 10px; /* Space below title */
+}
+.content-title1 {
+  color: #f8f8f8;
+  margin-left: 340px;
+  font-size: 2rem; /* Title font size */
+  margin-bottom: 10px; /* Space below title */
+}
+
+/* Content Text */
+.content-text {
+  color: #f8f8f8;
+  font-size: 1.2rem; /* Content text size */
+  margin: 10px 0; /* Margin adjustments */
+}
+
+.portfolio-title{
+  color: #FFF
+  ;
+}
+
+/* Footer */
+.footer {
+  margin-top: auto; /* Push footer to the bottom */
+  background-color: #f8f8f8; /* Footer background color */
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-text {
+  color: #333; /* Footer text color */
+  font-size: 0.9rem; /* Footer text size */
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0; /* Start hidden */
+  transform: translateY(20px); /* Start slightly lower */
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out; /* Smooth transition */
+}
+
+.fade-in.visible {
+  opacity: 1; /* Fully visible */
+  transform: translateY(0); /* Move to original position */
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center; /* Center the loader horizontally */
+  align-items: center; /* Center the loader vertically */
+  height: calc(100vh - 150px); /* Adjust this value based on your layout */
+}
+
+.loader {
+  width: 100px; /* Increased loader size */
+  height: 100px; /* Increased loader size */
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 6px solid; /* Thicker border */
+  border-color: #FFF #FFF transparent transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.loader::after,
+.loader::before {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border: 6px solid; /* Thicker border */
+  border-color: transparent transparent #FF3D00 #FF3D00;
+  width: 84px; /* Adjust inner loader size */
+  height: 84px; /* Adjust inner loader size */
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotationBack 0.5s linear infinite;
+  transform-origin: center center;
+}
+
+.loader::before {
+  width: 72px; /* Adjust size for before pseudo-element */
+  height: 72px; /* Adjust size for before pseudo-element */
+  border-color: #FFF #FFF transparent transparent;
+  animation: rotation 1.5s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} 
+
+@keyframes rotationBack {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+/* Divider styles */
+.divider {
+  height: 2px; /* Height of the divider */
+  background-color: #fff; /* Color of the divider */
+  margin: 20px 0; /* Space around the divider */
+}
+
+.profile-section {
+  margin-bottom: 20px; /* Space below profile section */
+}
+
+@media (max-width: 768px) {
+  .body-container {
+    padding: 10px; /* Reduce padding for mobile */
+  }
+  .profile {
+    display: flex;
+    width: 40%;  /* Adjust width for tablets and smaller devices */
+    height: 40%; /* Adjust height for tablets and smaller devices */
+  }
+  .profile-section {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center the profile image and text */
+  }
+  .profile-bio,.profile-bio1{
+    margin-left: 40px;
+  }
+
+  .profile-box {
+    
+    width: 100%; /* Make the profile box full width */
+    text-align: center; /* Center text for better readability */
+  }
+
+  .portfolio-center {
+    display: flex; /* Use flex for layout */
+    flex-direction: column; /* Stack portfolio items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .portfolio-box  {
+    
+    width: 100%; /* Make portfolio box full width */
+    max-width: 300px; /* Limit max width for larger screens */
+    margin: 10px 0; /* Add margin for spacing */
+  }
+
+  .content-title,
+  .content-title1 {
+    display: flex;
+    font-size: 1.5rem; /* Adjust font size for better readability */
+  }
+
+  .content-text {
+    font-size: 1rem; /* Adjust font size for better readability */
+    line-height: 1.5; /* Increase line height for better readability */
+  }
+
+  .footer-text {
+    text-align: center; /* Center footer text */
+    font-size: 0.9rem; /* Adjust footer font size */
+  }
+}
+
+/* Media query for smaller phones (max-width: 576px) */
+@media (max-width: 590px) {
+  .body-container {
+    padding: 5px; /* Further reduce padding for very small devices */
+  }
+  .profile {
+    display: flex;
+    width: 200px;  /* Adjust width for tablets and smaller devices */
+    height: 200px; /* Adjust height for tablets and smaller devices */
+  }
+  .profile-box {
+    display: flex;
+    padding: 100px; /* Adjust padding for the profile box */
+  }
+
+  .profile-name,
+  .profile-name1{
+    font-size: 0.9rem;
+  }
+.profile-bio,.profile-bio1{
+  margin-left: 18px;
+}
+  .content-title,
+  .content-title1
+   {
+    text-align: center;
+    font-size: 1.2rem; /* Decrease font size for small screens */
+  }
+
+  .content-text {
+    font-size: 0.9rem; /* Further decrease font size */
+  }
+
+  .portfolio-box {
+    max-width: 90%; /* Make portfolio box wider on small devices */
+    margin: 5px 0; /* Reduce margin */
+  }
+
+  .footer-text {
+    font-size: 0.8rem; /* Decrease footer font size */
+  }
+
+  .loader {
+    width: 50px; /* Adjust loader size for smaller screens */
+    height: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .profile-box, .content-box, .profile-bio {
+    padding: 3px; /* Further reduced padding for very small screens */
+    margin: 8px auto;
+  }
+  .profile {
+    width: 190px;  /* Adjust width for mobile devices */
+    height: 190px; /* Adjust height for mobile devices */
+  }
+  .profile-name,
+  .profile-name1{
+    font-size: 0.6rem;
+  }
+  .profile-bio,.profile-bio1{
+    font-size: 0.7rem;
+    margin-left: 2px;
+  }
+  .content-title {
+    font-size: 1.2rem; /* Further smaller title size */
+  }
+
+  .content-text {
+    font-size: 0.9rem; /* Further smaller content text */
+  }
+
+  .learn-more-button {
+    font-size: 0.8rem; /* Further smaller button size */
+    padding: 6px 12px; /* Further smaller padding */
+  }
+}
+@media (max-width: 440px) {
+  .profile-box, .content-box, .profile-bio {
+    padding: 8px; /* Further reduced padding for very small screens */
+    margin: 4px auto;
+  }
+  .profile {
+    width: 180px;  /* Adjust width for mobile devices */
+    height: 180px; /* Adjust height for mobile devices */
+  }
+  .profile-name,
+  .profile-name1{
+    font-size: 0.6rem;
+  }
+.profile-bio,.profile-bio1{
+  font-size: 0.7rem;
+  margin-left: 2px;
+}
+  .content-title {
+    font-size: 1.0rem; /* Further smaller title size */
+  }
+
+  .content-text {
+    font-size: 0.7rem; /* Further smaller content text */
+  }
+
+  
+}
+@media (max-width: 320px) {
+  .profile-box {
+    padding: 8px;
+    margin-top: 30px;
+  }
+
+  .profile-image {
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile-name {
+    font-size: 0.9rem;
+  }
+
+  .profile-bio {
+    font-size: 0.7rem;
+  }
+
+  .content-box {
+    padding: 8px;
+  }
+
+  .learn-more-button {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+  }
+}
+
